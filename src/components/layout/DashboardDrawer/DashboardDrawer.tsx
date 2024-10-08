@@ -88,6 +88,16 @@ const DashboardDrawer = ({ children }: DashboardLayoutProps) => {
                   {isOpen && <span className="whitespace-nowrap">Teacher</span>}
                 </Button>
               </li>
+              {/* Donors Button */}
+              <li className="mb-2">
+                <Button
+                  className="w-full justify-start text-left bg-transparent hover:bg-gray-700 flex items-center space-x-2"
+                  variant="ghost"
+                >
+                  <CogIcon className="h-6 w-6" />
+                  {isOpen && <span className="whitespace-nowrap">Donors</span>}
+                </Button>
+              </li>
             </ul>
           </div>
 
