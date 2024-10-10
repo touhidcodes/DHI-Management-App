@@ -52,6 +52,24 @@ const ProfilePage = () => {
                 {profile?.bio || "No bio available."}
               </p>
             </div>
+            <div>
+              <h3 className="text-sm font-semibold">Address:</h3>
+              <p className="text-sm text-gray-600">
+                {profile?.bio || "No bio available."}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold">Phone:</h3>
+              <p className="text-sm text-gray-600">
+                {profile?.bio || "No bio available."}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold">Email:</h3>
+              <p className="text-sm text-gray-600">
+                {profile?.bio || "No bio available."}
+              </p>
+            </div>
           </div>
         </CardContent>
       </Card>
